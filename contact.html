@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Contact</title>
+<title>Netsoftware Store</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Sublime project">
+<meta name="description" content="Netsoftware Store">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="styles/contact.css">
-<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    
+    
+    <!-- Hotjar Tracking Code for http://netsoftware.co.mz/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1671197,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+    
 </head>
 <body>
 
@@ -23,32 +40,26 @@
 				<div class="row">
 					<div class="col">
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
-							<div class="logo"><a href="#">Sublime.</a></div>
+							<img src="images/logo.png" alt="Netsoftware">
+							<div class="logo"><a href="#">NetSoftware</a></div>
 							<nav class="main_nav">
 								<ul>
 									<li class="hassubs active">
 										<a href="index.html">Home</a>
-										<ul>
-											<li><a href="categories.html">Categories</a></li>
-											<li><a href="product.html">Product</a></li>
-											<li><a href="cart.html">Cart</a></li>
-											<li><a href="checkout.html">Check out</a></li>
-											<li><a href="contact.html">Contact</a></li>
-										</ul>
 									</li>
 									<li class="hassubs">
-										<a href="categories.html">Categories</a>
+										<a href="#">Categorias</a>
 										<ul>
-											<li><a href="categories.html">Category</a></li>
-											<li><a href="categories.html">Category</a></li>
-											<li><a href="categories.html">Category</a></li>
-											<li><a href="categories.html">Category</a></li>
-											<li><a href="categories.html">Category</a></li>
+											<li><a href="#">Toners</a></li>
+											<li><a href="#">Consumíveis Informáticos</a></li>
+											<li><a href="#">Consumíveis de Escritorio</a></li>
+											<li><a href="#">Computadores</a></li>
+											<li><a href="#">Acessorios</a></li>
 										</ul>
 									</li>
-									<li><a href="#">Accessories</a></li>
-									<li><a href="#">Offers</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="#">Acessoria</a></li>
+									<li><a href="#">Ofertas</a></li>
+									<li><a href="contact.html">Contactos</a></li>
 								</ul>
 							</nav>
 							<div class="header_extra ml-auto">
@@ -64,7 +75,7 @@
 													c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5v-41h45.2l26.9,302.3C412.8,445.2,392.1,462,366.8,462z"/>
 											</g>
 										</svg>
-										<div>Cart <span>(0)</span></div>
+										<div>Shop<span>(0)</span></div>
 									</a>
 								</div>
 								<div class="search">
@@ -103,7 +114,7 @@
 					<div class="col">
 						<div class="search_panel_content d-flex flex-row align-items-center justify-content-end">
 							<form action="#">
-								<input type="text" class="search_input" placeholder="Search" required="required">
+								<input type="text" class="search_input" placeholder="Procurar" required="required">
 							</form>
 						</div>
 					</div>
@@ -130,27 +141,24 @@
 							
 				<div class="page_menu_search menu_mm">
 					<form action="#">
-						<input type="search" required="required" class="page_menu_search_input menu_mm" placeholder="Search for products...">
+						<input type="search" required="required" class="page_menu_search_input menu_mm" placeholder="Procurar productos...">
 					</form>
 				</div>
 				<ul class="page_menu_nav menu_mm">
 					<li class="page_menu_item has-children menu_mm">
 						<a href="index.html">Home<i class="fa fa-angle-down"></i></a>
 						<ul class="page_menu_selection menu_mm">
-							<li class="page_menu_item menu_mm"><a href="categories.html">Categories<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="product.html">Product<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="cart.html">Cart<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="checkout.html">Checkout<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.html">Categorias<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="product.html">Productos<i class="fa fa-angle-down"></i></a></li>
 						</ul>
 					</li>
 					<li class="page_menu_item has-children menu_mm">
-						<a href="categories.html">Categories<i class="fa fa-angle-down"></i></a>
+						<a href="categories.html">Categorias<i class="fa fa-angle-down"></i></a>
 						<ul class="page_menu_selection menu_mm">
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.html">Consumíveis<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.html">Toners<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.html">Acessórios<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.html">Peças<i class="fa fa-angle-down"></i></a></li>
 						</ul>
 					</li>
 					<li class="page_menu_item menu_mm"><a href="index.html">Accessories<i class="fa fa-angle-down"></i></a></li>
@@ -171,7 +179,8 @@
 			</ul>
 		</div>
 	</div>
-	
+    
+    
 	<!-- Home -->
 
 	<div class="home">
@@ -185,7 +194,7 @@
 								<div class="breadcrumbs">
 									<ul>
 										<li><a href="index.html">Home</a></li>
-										<li>Contact</li>
+										<li>Contactos</li>
 									</ul>
 								</div>
 							</div>
@@ -205,32 +214,32 @@
 				<!-- Get in touch -->
 				<div class="col-lg-8 contact_col">
 					<div class="get_in_touch">
-						<div class="section_title">Get in Touch</div>
-						<div class="section_subtitle">Say hello</div>
+						<div class="section_title">Entre em contacto</div>
+						<div class="section_subtitle">Encomende já</div>
 						<div class="contact_form_container">
 							<form action="#" id="contact_form" class="contact_form">
 								<div class="row">
 									<div class="col-xl-6">
 										<!-- Name -->
-										<label for="contact_name">First Name*</label>
+										<label for="contact_name">Primeiro nome*</label>
 										<input type="text" id="contact_name" class="contact_input" required="required">
 									</div>
 									<div class="col-xl-6 last_name_col">
 										<!-- Last Name -->
-										<label for="contact_last_name">Last Name*</label>
+										<label for="contact_last_name">Ultimo nome*</label>
 										<input type="text" id="contact_last_name" class="contact_input" required="required">
 									</div>
 								</div>
 								<div>
 									<!-- Subject -->
-									<label for="contact_company">Subject</label>
+									<label for="contact_company">Requisiçāo</label>
 									<input type="text" id="contact_company" class="contact_input">
 								</div>
 								<div>
-									<label for="contact_textarea">Message*</label>
+									<label for="contact_textarea">Detalhes e Endereço*</label>
 									<textarea id="contact_textarea" class="contact_input contact_textarea" required="required"></textarea>
 								</div>
-								<button class="button contact_button"><span>Send Message</span></button>
+								<button class="button contact_button"><span>Enviar requisição</span></button>
 							</form>
 						</div>
 					</div>
@@ -240,24 +249,24 @@
 				<div class="col-lg-3 offset-xl-1 contact_col">
 					<div class="contact_info">
 						<div class="contact_info_section">
-							<div class="contact_info_title">Marketing</div>
+							<div class="contact_info_title">Vendas</div>
 							<ul>
-								<li>Phone: <span>+53 345 7953 3245</span></li>
-								<li>Email: <span>yourmail@gmail.com</span></li>
+								<li>Telefone: <span>+258 85 255 2579</span></li>
+								<li>Email: <span>sales@netsoftware.co.mz</span></li>
 							</ul>
 						</div>
 						<div class="contact_info_section">
-							<div class="contact_info_title">Shippiing & Returns</div>
+							<div class="contact_info_title">Envio & devoluções</div>
 							<ul>
-								<li>Phone: <span>+53 345 7953 3245</span></li>
-								<li>Email: <span>yourmail@gmail.com</span></li>
+								<li>Telefone: <span>+258 85 255 2579</span></li>
+								<li>Email: <span>shipping@netsoftware.co.mz</span></li>
 							</ul>
 						</div>
 						<div class="contact_info_section">
-							<div class="contact_info_title">Information</div>
+							<div class="contact_info_title">Suporte</div>
 							<ul>
-								<li>Phone: <span>+53 345 7953 3245</span></li>
-								<li>Email: <span>yourmail@gmail.com</span></li>
+								<li>Telefone: <span>+258 85 255 2579</span></li>
+								<li>Email: <span>suporte@netsoftware.co.mz</span></li>
 							</ul>
 						</div>
 					</div>
